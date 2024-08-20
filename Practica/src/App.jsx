@@ -4,7 +4,8 @@ import { useState } from 'react'
 function App() {
 const [nombre,setNombre] = useState("");
 const [nro,setNro] = useState(0);
-const [contact,setContact] = useState([]);
+const [contacto,setContacto] = useState([]);
+const [contactos,setContactos] = useState= ([])
 
 const newNombre = (event) =>{
   setNombre(event.target.value)
